@@ -1,0 +1,36 @@
+.radar{
+	width:30px;
+	height:30px;
+	border:2px solid rgba(0,0,0,0.1);
+	border-left-color: blue;
+	border-radius:50%;
+	transform-origin:50%,50%;
+	animation: radar 2s linear infinite;
+	position:relative;
+}
+.radar:after{
+	width:20px;
+	height:20px;
+	content:'';
+	position:absolute;
+	top:2.5px;
+	left:2.5px;
+	border:2px solid rgba(0,0,0,0.1);
+	border-left-color: blue;
+	border-radius:50%;
+}
+.radar:before{
+	width:10px;
+	height:10px;
+	content:'';
+	position:absolute;
+	top:7.5px;
+	left:7.5px;
+	border:2px solid rgba(0,0,0,0.1);
+	border-left-color: blue;
+	border-radius:50%;
+}
+@keyframes radar{
+	from {transform:rotate(0deg)}
+	to {transform:rotate(360deg)}
+}
