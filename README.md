@@ -11,4 +11,4 @@ some interesting animations
 ``` HTML
 <div class="menu"></div>
 ```
-![image](https://github.com/ConstancePeng/Panmation/blob/master/pic/radar.gif)
+![image](https://github.com/ConstancePeng/Panmation/blob/master/pic/menuflag.gif)
